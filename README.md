@@ -1,5 +1,15 @@
-# Mantine Next Template
+# run build
 
-Get started with the template by clicking `Use this template` button on the top of the page.
+```
+npm run build
+```
 
-[Documentation](https://mantine.dev/guides/next/)
+# export to production
+
+```
+npx next export
+```
+
+This will then output a directory at `./out` which can be uploaded to endpoint.
+
+RM
